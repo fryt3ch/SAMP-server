@@ -1,0 +1,49 @@
+// √лобальные текстдравы
+new Text:TDEditor_TD[4];
+
+TDEditor_TD[0] = TextDrawCreate(365.0000, 320.0000, ">>"); // пусто
+TextDrawLetterSize(TDEditor_TD[0], 0.5000, 2.5000);
+TextDrawAlignment(TDEditor_TD[0], 1);
+TextDrawColor(TDEditor_TD[0], -1);
+TextDrawBackgroundColor(TDEditor_TD[0], 255);
+TextDrawFont(TDEditor_TD[0], 1);
+TextDrawSetProportional(TDEditor_TD[0], 1);
+TextDrawSetShadow(TDEditor_TD[0], 0);
+TextDrawSetSelectable(TDEditor_TD[0], true);
+
+TDEditor_TD[1] = TextDrawCreate(260.0000, 320.0000, "<<"); // пусто
+TextDrawLetterSize(TDEditor_TD[1], 0.5000, 2.5000);
+TextDrawAlignment(TDEditor_TD[1], 1);
+TextDrawColor(TDEditor_TD[1], -1);
+TextDrawBackgroundColor(TDEditor_TD[1], 255);
+TextDrawFont(TDEditor_TD[1], 1);
+TextDrawSetProportional(TDEditor_TD[1], 1);
+TextDrawSetShadow(TDEditor_TD[1], 0);
+TextDrawSetSelectable(TDEditor_TD[1], true);
+
+TDEditor_TD[2] = TextDrawCreate(250.0000, 300.0000, "Box"); // пусто
+TextDrawLetterSize(TDEditor_TD[2], 0.0000, 7.0000);
+TextDrawTextSize(TDEditor_TD[2], 394.6665, 0.0000);
+TextDrawAlignment(TDEditor_TD[2], 1);
+TextDrawColor(TDEditor_TD[2], -1);
+TextDrawUseBox(TDEditor_TD[2], 1);
+TextDrawBoxColor(TDEditor_TD[2], 255);
+TextDrawBackgroundColor(TDEditor_TD[2], 255);
+TextDrawFont(TDEditor_TD[2], 1);
+TextDrawSetProportional(TDEditor_TD[2], 1);
+TextDrawSetShadow(TDEditor_TD[2], 0);
+TextDrawSetSelectable(TDEditor_TD[2], true);
+
+TDEditor_TD[3] = TextDrawCreate(300.0000, 322.0000, "SELECT"); // пусто
+TextDrawLetterSize(TDEditor_TD[3], 0.4199, 2.0999);
+TextDrawAlignment(TDEditor_TD[3], 1);
+TextDrawColor(TDEditor_TD[3], -1);
+TextDrawBackgroundColor(TDEditor_TD[3], 255);
+TextDrawFont(TDEditor_TD[3], 1);
+TextDrawSetProportional(TDEditor_TD[3], 1);
+TextDrawSetShadow(TDEditor_TD[3], 0);
+TextDrawSetSelectable(TDEditor_TD[3], true);
+
+
+
+// Ёкспортировано 4 текстдравов.

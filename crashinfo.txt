@@ -1,0 +1,291 @@
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049DC0C Module: (samp-server.exe)
+
+Registers:
+EAX: 0xE5E2D35B	EBX: 0x27BFC173	ECX: 0x7FFFFFFE	EDX: 0x0019F32B
+ESI: 0x0019EF70	EDI: 0x0019F756	EBP: 0x0019EFBC	ESP: 0x0019EF30
+EFLAGS: 0x00010202
+
+Stack:
++0000: 0x0019F708   0x0019F308   0x27BFC104   0x0100007F
++0010: 0x004BC3D5   0x00000000   0x00000000   0x00000007
++0020: 0x00000000   0x0100007F   0x00000000   0x00000000
++0030: 0x00000000   0x00000000   0x00000000   0x0100007F
++0040: 0x00000024   0x00000000   0xE5E2D35B   0xFFFFFFFF
++0050: 0x00000000   0x00000008   0x00000003   0x0100007F
++0060: 0x0000C3D5   0x004555FD   0x00000001   0x00000001
++0070: 0x004B4E08   0x0100C3D5   0x00000223   0x00000800
++0080: 0x00000000   0x0019EFB9   0xC05D1401   0xF5F55F00
++0090: 0x0000E7F6   0x2B680B00   0x2E0C0AA4   0xACE98BAD
++00A0: 0x4E2E6C68   0x2BAFCC8D   0x1CA42B66   0x1D641D9C
++00B0: 0xDD9CDCFD   0x1DBDFDDD   0x7E1C1D44   0x645EDD1D
++00C0: 0xCDAD6C09   0xACE92BCF   0x668B8DAD   0x668BA00B
++00D0: 0x0000A00B   0x00000001   0x004B4E08   0x0100C3D5
++00E0: 0x0000019B   0x00000800   0x00000000   0x0019F021
++00F0: 0xCF5D1401   0x0EE03F00   0x00E0E47F   0x7C7A0B00
++0100: 0xDD9DBC5C   0xBDBD7C9D   0x0FA4AB1C   0xC8C8C868
++0110: 0xB8CFC8C8   0x7E1E645F   0x1DBFFC3D   0x5D1CC4BD
++0120: 0x047D1DDF   0x004B5220   0x0019F151   0x00000090
++0130: 0x00000001   0x00000009   0x00000002   0x0100007F
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\samp-server.exe)
+ntdll.dll	A: 0x77B90000 - 0x77D2C000	(C:\WINDOWS\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x76470000 - 0x76550000	(C:\WINDOWS\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x760A0000 - 0x76299000	(C:\WINDOWS\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75570000 - 0x75ABD000	(C:\WINDOWS\System32\SHELL32.dll)
+msvcrt.dll	A: 0x77690000 - 0x77750000	(C:\WINDOWS\System32\msvcrt.dll)
+cfgmgr32.dll	A: 0x75AC0000 - 0x75AFB000	(C:\WINDOWS\System32\cfgmgr32.dll)
+ucrtbase.dll	A: 0x762A0000 - 0x763C3000	(C:\WINDOWS\System32\ucrtbase.dll)
+shcore.dll	A: 0x763D0000 - 0x76459000	(C:\WINDOWS\System32\shcore.dll)
+RPCRT4.dll	A: 0x77970000 - 0x77A2F000	(C:\WINDOWS\System32\RPCRT4.dll)
+SspiCli.dll	A: 0x75200000 - 0x75220000	(C:\WINDOWS\System32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x751F0000 - 0x751FA000	(C:\WINDOWS\System32\CRYPTBASE.dll)
+bcryptPrimitives.dll	A: 0x77900000 - 0x77962000	(C:\WINDOWS\System32\bcryptPrimitives.dll)
+sechost.dll	A: 0x773A0000 - 0x77419000	(C:\WINDOWS\System32\sechost.dll)
+combase.dll	A: 0x76810000 - 0x76A88000	(C:\WINDOWS\System32\combase.dll)
+windows.storage.dll	A: 0x76A90000 - 0x7708B000	(C:\WINDOWS\System32\windows.storage.dll)
+msvcp_win.dll	A: 0x75220000 - 0x752A0000	(C:\WINDOWS\System32\msvcp_win.dll)
+advapi32.dll	A: 0x75300000 - 0x7537E000	(C:\WINDOWS\System32\advapi32.dll)
+profapi.dll	A: 0x752D0000 - 0x752EC000	(C:\WINDOWS\System32\profapi.dll)
+powrprof.dll	A: 0x77630000 - 0x77684000	(C:\WINDOWS\System32\powrprof.dll)
+shlwapi.dll	A: 0x77440000 - 0x77484000	(C:\WINDOWS\System32\shlwapi.dll)
+GDI32.dll	A: 0x752A0000 - 0x752C3000	(C:\WINDOWS\System32\GDI32.dll)
+gdi32full.dll	A: 0x77090000 - 0x771F7000	(C:\WINDOWS\System32\gdi32full.dll)
+USER32.dll	A: 0x75380000 - 0x75519000	(C:\WINDOWS\System32\USER32.dll)
+win32u.dll	A: 0x767F0000 - 0x76807000	(C:\WINDOWS\System32\win32u.dll)
+kernel.appcore.dll	A: 0x752F0000 - 0x752FF000	(C:\WINDOWS\System32\kernel.appcore.dll)
+cryptsp.dll	A: 0x77AC0000 - 0x77AD2000	(C:\WINDOWS\System32\cryptsp.dll)
+WINMM.dll	A: 0x73E60000 - 0x73E84000	(C:\WINDOWS\SYSTEM32\WINMM.dll)
+WSOCK32.dll	A: 0x73000000 - 0x73008000	(C:\WINDOWS\SYSTEM32\WSOCK32.dll)
+WS2_32.dll	A: 0x75B60000 - 0x75BBF000	(C:\WINDOWS\System32\WS2_32.dll)
+winmmbase.dll	A: 0x731C0000 - 0x731E3000	(C:\WINDOWS\SYSTEM32\winmmbase.dll)
+IMM32.DLL	A: 0x76650000 - 0x76675000	(C:\WINDOWS\System32\IMM32.DLL)
+jit.DLL	A: 0x61C50000 - 0x61C92000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\plugins\jit.DLL)
+MSVCP100.dll	A: 0x61530000 - 0x61599000	(C:\WINDOWS\SYSTEM32\MSVCP100.dll)
+MSVCR100.dll	A: 0x61470000 - 0x6152F000	(C:\WINDOWS\SYSTEM32\MSVCR100.dll)
+ColAndreas.DLL	A: 0x613B0000 - 0x6146D000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\plugins\ColAndreas.DLL)
+mysql.DLL	A: 0x61BA0000 - 0x61BEE000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\plugins\mysql.DLL)
+VCRUNTIME140.dll	A: 0x6C380000 - 0x6C394000	(C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll)
+MSVCP140.dll	A: 0x6C3A0000 - 0x6C410000	(C:\WINDOWS\SYSTEM32\MSVCP140.dll)
+libmariadb.dll	A: 0x5D040000 - 0x5D10D000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\libmariadb.dll)
+log-core.dll	A: 0x6C840000 - 0x6C85A000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\log-core.dll)
+CRYPT32.dll	A: 0x77200000 - 0x77399000	(C:\WINDOWS\System32\CRYPT32.dll)
+Secur32.dll	A: 0x727E0000 - 0x727EA000	(C:\WINDOWS\SYSTEM32\Secur32.dll)
+MSASN1.dll	A: 0x76090000 - 0x7609E000	(C:\WINDOWS\System32\MSASN1.dll)
+napinsp.dll	A: 0x75100000 - 0x75111000	(C:\WINDOWS\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x750E0000 - 0x750F6000	(C:\WINDOWS\system32\pnrpnsp.dll)
+mswsock.dll	A: 0x72C00000 - 0x72C52000	(C:\WINDOWS\System32\mswsock.dll)
+DNSAPI.dll	A: 0x74500000 - 0x74590000	(C:\WINDOWS\SYSTEM32\DNSAPI.dll)
+NSI.dll	A: 0x77AE0000 - 0x77AE7000	(C:\WINDOWS\System32\NSI.dll)
+IPHLPAPI.DLL	A: 0x744C0000 - 0x744F3000	(C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL)
+winrnr.dll	A: 0x750D0000 - 0x750DB000	(C:\WINDOWS\System32\winrnr.dll)
+NLAapi.dll	A: 0x750B0000 - 0x750C6000	(C:\WINDOWS\system32\NLAapi.dll)
+wshbth.dll	A: 0x750A0000 - 0x750B0000	(C:\WINDOWS\system32\wshbth.dll)
+rasadhlp.dll	A: 0x731F0000 - 0x731F8000	(C:\Windows\System32\rasadhlp.dll)
+pawncmd.DLL	A: 0x619E0000 - 0x61A19000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\plugins\pawncmd.DLL)
+sscanf.DLL	A: 0x028E0000 - 0x028EE000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\plugins\sscanf.DLL)
+streamer.DLL	A: 0x5CFD0000 - 0x5D037000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\plugins\streamer.DLL)
+pawnregex.DLL	A: 0x61370000 - 0x613A7000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\plugins\pawnregex.DLL)
+TDE.DLL	A: 0x661D0000 - 0x661EB000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\plugins\TDE.DLL)
+MSVCR100D.dll	A: 0x58650000 - 0x587C2000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\MSVCR100D.dll)
+bcrypt.dll	A: 0x75C20000 - 0x75C39000	(C:\WINDOWS\System32\bcrypt.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049DC0C Module: (samp-server.exe)
+
+Registers:
+EAX: 0xE5E2D35B	EBX: 0x27C8F173	ECX: 0x7FFFFFFE	EDX: 0x0019F32B
+ESI: 0x0019EF70	EDI: 0x0019F756	EBP: 0x0019EFBC	ESP: 0x0019EF30
+EFLAGS: 0x00010202
+
+Stack:
++0000: 0x0019F708   0x0019F308   0x27C8F104   0x0100007F
++0010: 0x004BCD7C   0x00000000   0x00000000   0x00000007
++0020: 0x00000000   0x0100007F   0x00000000   0x00000000
++0030: 0x00000000   0x00000000   0x00000000   0x0100007F
++0040: 0x00000024   0x00000000   0xE5E2D35B   0xFFFFFFFF
++0050: 0x00000000   0x00000008   0x00000003   0x0100007F
++0060: 0x0000CD7C   0x004555FD   0x00000001   0x00000001
++0070: 0x004B4E08   0x0100CD7C   0x00000223   0x00000800
++0080: 0x00000000   0x0019EFB9   0xC05D1401   0xF5F55F00
++0090: 0x0000E7F6   0x2B680B00   0x2E0C0AA4   0xACE98BAD
++00A0: 0x4E2E6C68   0x2BAFCC8D   0x1CA42B66   0x1D641D9C
++00B0: 0xDD9CDCFD   0x1DBDFDDD   0x7E1C1D44   0x645EDD1D
++00C0: 0xCDAD6C09   0xACE92BCF   0x668B8DAD   0x0045A00B
++00D0: 0x00000001   0x00000001   0x004B4E08   0x0100CD7C
++00E0: 0x0000019B   0x00000800   0x00000000   0x0019F021
++00F0: 0xCF5D1401   0x0EE03F00   0x00E0E47F   0x7C7A0B00
++0100: 0xDD9DBC5C   0xBDBD7C9D   0x0FA4AB1C   0xC8C8C868
++0110: 0xB8CFC8C8   0x7E1E645F   0x1DBFFC3D   0x5D1CC4BD
++0120: 0x047D1DDF   0x004B5220   0x0019F151   0x00000090
++0130: 0x00000001   0x00000009   0x00000002   0x0100007F
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\samp-server.exe)
+ntdll.dll	A: 0x77B90000 - 0x77D2C000	(C:\WINDOWS\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x76470000 - 0x76550000	(C:\WINDOWS\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x760A0000 - 0x76299000	(C:\WINDOWS\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75570000 - 0x75ABD000	(C:\WINDOWS\System32\SHELL32.dll)
+msvcrt.dll	A: 0x77690000 - 0x77750000	(C:\WINDOWS\System32\msvcrt.dll)
+cfgmgr32.dll	A: 0x75AC0000 - 0x75AFB000	(C:\WINDOWS\System32\cfgmgr32.dll)
+ucrtbase.dll	A: 0x762A0000 - 0x763C3000	(C:\WINDOWS\System32\ucrtbase.dll)
+shcore.dll	A: 0x763D0000 - 0x76459000	(C:\WINDOWS\System32\shcore.dll)
+RPCRT4.dll	A: 0x77970000 - 0x77A2F000	(C:\WINDOWS\System32\RPCRT4.dll)
+SspiCli.dll	A: 0x75200000 - 0x75220000	(C:\WINDOWS\System32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x751F0000 - 0x751FA000	(C:\WINDOWS\System32\CRYPTBASE.dll)
+bcryptPrimitives.dll	A: 0x77900000 - 0x77962000	(C:\WINDOWS\System32\bcryptPrimitives.dll)
+sechost.dll	A: 0x773A0000 - 0x77419000	(C:\WINDOWS\System32\sechost.dll)
+combase.dll	A: 0x76810000 - 0x76A88000	(C:\WINDOWS\System32\combase.dll)
+windows.storage.dll	A: 0x76A90000 - 0x7708B000	(C:\WINDOWS\System32\windows.storage.dll)
+msvcp_win.dll	A: 0x75220000 - 0x752A0000	(C:\WINDOWS\System32\msvcp_win.dll)
+advapi32.dll	A: 0x75300000 - 0x7537E000	(C:\WINDOWS\System32\advapi32.dll)
+profapi.dll	A: 0x752D0000 - 0x752EC000	(C:\WINDOWS\System32\profapi.dll)
+powrprof.dll	A: 0x77630000 - 0x77684000	(C:\WINDOWS\System32\powrprof.dll)
+shlwapi.dll	A: 0x77440000 - 0x77484000	(C:\WINDOWS\System32\shlwapi.dll)
+GDI32.dll	A: 0x752A0000 - 0x752C3000	(C:\WINDOWS\System32\GDI32.dll)
+gdi32full.dll	A: 0x77090000 - 0x771F7000	(C:\WINDOWS\System32\gdi32full.dll)
+USER32.dll	A: 0x75380000 - 0x75519000	(C:\WINDOWS\System32\USER32.dll)
+win32u.dll	A: 0x767F0000 - 0x76807000	(C:\WINDOWS\System32\win32u.dll)
+kernel.appcore.dll	A: 0x752F0000 - 0x752FF000	(C:\WINDOWS\System32\kernel.appcore.dll)
+cryptsp.dll	A: 0x77AC0000 - 0x77AD2000	(C:\WINDOWS\System32\cryptsp.dll)
+WSOCK32.dll	A: 0x73000000 - 0x73008000	(C:\WINDOWS\SYSTEM32\WSOCK32.dll)
+WS2_32.dll	A: 0x75B60000 - 0x75BBF000	(C:\WINDOWS\System32\WS2_32.dll)
+WINMM.dll	A: 0x73E60000 - 0x73E84000	(C:\WINDOWS\SYSTEM32\WINMM.dll)
+winmmbase.dll	A: 0x731C0000 - 0x731E3000	(C:\WINDOWS\SYSTEM32\winmmbase.dll)
+IMM32.DLL	A: 0x76650000 - 0x76675000	(C:\WINDOWS\System32\IMM32.DLL)
+jit.DLL	A: 0x61C50000 - 0x61C92000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\plugins\jit.DLL)
+MSVCP100.dll	A: 0x61530000 - 0x61599000	(C:\WINDOWS\SYSTEM32\MSVCP100.dll)
+MSVCR100.dll	A: 0x61470000 - 0x6152F000	(C:\WINDOWS\SYSTEM32\MSVCR100.dll)
+ColAndreas.DLL	A: 0x613B0000 - 0x6146D000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\plugins\ColAndreas.DLL)
+mysql.DLL	A: 0x61BA0000 - 0x61BEE000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\plugins\mysql.DLL)
+VCRUNTIME140.dll	A: 0x6C380000 - 0x6C394000	(C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll)
+MSVCP140.dll	A: 0x6C3A0000 - 0x6C410000	(C:\WINDOWS\SYSTEM32\MSVCP140.dll)
+log-core.dll	A: 0x6C840000 - 0x6C85A000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\log-core.dll)
+libmariadb.dll	A: 0x5D040000 - 0x5D10D000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\libmariadb.dll)
+CRYPT32.dll	A: 0x77200000 - 0x77399000	(C:\WINDOWS\System32\CRYPT32.dll)
+Secur32.dll	A: 0x727E0000 - 0x727EA000	(C:\WINDOWS\SYSTEM32\Secur32.dll)
+MSASN1.dll	A: 0x76090000 - 0x7609E000	(C:\WINDOWS\System32\MSASN1.dll)
+napinsp.dll	A: 0x75100000 - 0x75111000	(C:\WINDOWS\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x750E0000 - 0x750F6000	(C:\WINDOWS\system32\pnrpnsp.dll)
+mswsock.dll	A: 0x72C00000 - 0x72C52000	(C:\WINDOWS\System32\mswsock.dll)
+DNSAPI.dll	A: 0x74500000 - 0x74590000	(C:\WINDOWS\SYSTEM32\DNSAPI.dll)
+NSI.dll	A: 0x77AE0000 - 0x77AE7000	(C:\WINDOWS\System32\NSI.dll)
+IPHLPAPI.DLL	A: 0x744C0000 - 0x744F3000	(C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL)
+winrnr.dll	A: 0x750D0000 - 0x750DB000	(C:\WINDOWS\System32\winrnr.dll)
+NLAapi.dll	A: 0x750B0000 - 0x750C6000	(C:\WINDOWS\system32\NLAapi.dll)
+wshbth.dll	A: 0x750A0000 - 0x750B0000	(C:\WINDOWS\system32\wshbth.dll)
+rasadhlp.dll	A: 0x731F0000 - 0x731F8000	(C:\Windows\System32\rasadhlp.dll)
+pawncmd.DLL	A: 0x619E0000 - 0x61A19000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\plugins\pawncmd.DLL)
+sscanf.DLL	A: 0x028B0000 - 0x028BE000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\plugins\sscanf.DLL)
+streamer.DLL	A: 0x5CFD0000 - 0x5D037000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\plugins\streamer.DLL)
+pawnregex.DLL	A: 0x61370000 - 0x613A7000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\plugins\pawnregex.DLL)
+TDE.DLL	A: 0x661D0000 - 0x661EB000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\plugins\TDE.DLL)
+MSVCR100D.dll	A: 0x58650000 - 0x587C2000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\MSVCR100D.dll)
+bcrypt.dll	A: 0x75C20000 - 0x75C39000	(C:\WINDOWS\System32\bcrypt.dll)
+
+--------------------------
+SA-MP Server: 0.3.7-R2
+
+Exception At Address: 0x0049DC0C Module: (samp-server.exe)
+
+Registers:
+EAX: 0xE5E2D35B	EBX: 0x27BF4F73	ECX: 0x7FFFFFFE	EDX: 0x0019F32B
+ESI: 0x0019EF70	EDI: 0x0019F756	EBP: 0x0019EFBC	ESP: 0x0019EF30
+EFLAGS: 0x00010202
+
+Stack:
++0000: 0x0019F708   0x0019F308   0x27BF4FB4   0x0100007F
++0010: 0x004BC762   0x00000000   0x00000000   0x00000007
++0020: 0x00000000   0x0100007F   0x00000000   0x00000000
++0030: 0x00000000   0x00000000   0x00000000   0x0100007F
++0040: 0x00000024   0x00000000   0xE5E2D35B   0xFFFFFFFF
++0050: 0x00000000   0x00000008   0x00000003   0x0100007F
++0060: 0x0000C762   0x004555FD   0x00000001   0x00000001
++0070: 0x004B4E08   0x0100C762   0x00000223   0x00000800
++0080: 0x00000000   0x0019EFB9   0xC05D1401   0xF5F55F00
++0090: 0x0000E7F6   0x2B680B00   0x2E0C0AA4   0xACE98BAD
++00A0: 0x4E2E6C68   0x2BAFCC8D   0x1CA42B66   0x1D641D9C
++00B0: 0xDD9CDCFD   0x1DBDFDDD   0x7E1C1D44   0x645EDD1D
++00C0: 0xCDAD6C09   0xACE92BCF   0x668B8DAD   0x662BA00B
++00D0: 0x0000A02B   0x00000001   0x004B4E08   0x0100C762
++00E0: 0x0000019B   0x00000800   0x00000000   0x0019F021
++00F0: 0xCF5D1401   0x0EE03F00   0x00E0E47F   0x7C7A0B00
++0100: 0xDD9DBC5C   0xBDBD7C9D   0x0FA4AB1C   0xC8C8C868
++0110: 0xB8CFC8C8   0x7E1E645F   0x1DBFFC3D   0x5D1CC4BD
++0120: 0x047D1DDF   0x004B5220   0x0019F151   0x00000090
++0130: 0x00000001   0x00000009   0x00000002   0x0100007F
+
+--------------------------
+
+Loaded Modules:
+samp-server.exe	A: 0x00400000 - 0x00519000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\samp-server.exe)
+ntdll.dll	A: 0x77B90000 - 0x77D2C000	(C:\WINDOWS\SYSTEM32\ntdll.dll)
+KERNEL32.DLL	A: 0x76470000 - 0x76550000	(C:\WINDOWS\System32\KERNEL32.DLL)
+KERNELBASE.dll	A: 0x760A0000 - 0x76299000	(C:\WINDOWS\System32\KERNELBASE.dll)
+SHELL32.dll	A: 0x75570000 - 0x75ABD000	(C:\WINDOWS\System32\SHELL32.dll)
+msvcrt.dll	A: 0x77690000 - 0x77750000	(C:\WINDOWS\System32\msvcrt.dll)
+cfgmgr32.dll	A: 0x75AC0000 - 0x75AFB000	(C:\WINDOWS\System32\cfgmgr32.dll)
+ucrtbase.dll	A: 0x762A0000 - 0x763C3000	(C:\WINDOWS\System32\ucrtbase.dll)
+shcore.dll	A: 0x763D0000 - 0x76459000	(C:\WINDOWS\System32\shcore.dll)
+RPCRT4.dll	A: 0x77970000 - 0x77A2F000	(C:\WINDOWS\System32\RPCRT4.dll)
+SspiCli.dll	A: 0x75200000 - 0x75220000	(C:\WINDOWS\System32\SspiCli.dll)
+CRYPTBASE.dll	A: 0x751F0000 - 0x751FA000	(C:\WINDOWS\System32\CRYPTBASE.dll)
+bcryptPrimitives.dll	A: 0x77900000 - 0x77962000	(C:\WINDOWS\System32\bcryptPrimitives.dll)
+sechost.dll	A: 0x773A0000 - 0x77419000	(C:\WINDOWS\System32\sechost.dll)
+combase.dll	A: 0x76810000 - 0x76A88000	(C:\WINDOWS\System32\combase.dll)
+windows.storage.dll	A: 0x76A90000 - 0x7708B000	(C:\WINDOWS\System32\windows.storage.dll)
+msvcp_win.dll	A: 0x75220000 - 0x752A0000	(C:\WINDOWS\System32\msvcp_win.dll)
+advapi32.dll	A: 0x75300000 - 0x7537E000	(C:\WINDOWS\System32\advapi32.dll)
+profapi.dll	A: 0x752D0000 - 0x752EC000	(C:\WINDOWS\System32\profapi.dll)
+powrprof.dll	A: 0x77630000 - 0x77684000	(C:\WINDOWS\System32\powrprof.dll)
+shlwapi.dll	A: 0x77440000 - 0x77484000	(C:\WINDOWS\System32\shlwapi.dll)
+GDI32.dll	A: 0x752A0000 - 0x752C3000	(C:\WINDOWS\System32\GDI32.dll)
+gdi32full.dll	A: 0x77090000 - 0x771F7000	(C:\WINDOWS\System32\gdi32full.dll)
+USER32.dll	A: 0x75380000 - 0x75519000	(C:\WINDOWS\System32\USER32.dll)
+win32u.dll	A: 0x767F0000 - 0x76807000	(C:\WINDOWS\System32\win32u.dll)
+kernel.appcore.dll	A: 0x752F0000 - 0x752FF000	(C:\WINDOWS\System32\kernel.appcore.dll)
+cryptsp.dll	A: 0x77AC0000 - 0x77AD2000	(C:\WINDOWS\System32\cryptsp.dll)
+WSOCK32.dll	A: 0x73000000 - 0x73008000	(C:\WINDOWS\SYSTEM32\WSOCK32.dll)
+WINMM.dll	A: 0x73E60000 - 0x73E84000	(C:\WINDOWS\SYSTEM32\WINMM.dll)
+WS2_32.dll	A: 0x75B60000 - 0x75BBF000	(C:\WINDOWS\System32\WS2_32.dll)
+WINMMBASE.dll	A: 0x731C0000 - 0x731E3000	(C:\WINDOWS\SYSTEM32\WINMMBASE.dll)
+IMM32.DLL	A: 0x76650000 - 0x76675000	(C:\WINDOWS\System32\IMM32.DLL)
+jit.DLL	A: 0x61C50000 - 0x61C92000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\plugins\jit.DLL)
+MSVCP100.dll	A: 0x58A90000 - 0x58AF9000	(C:\WINDOWS\SYSTEM32\MSVCP100.dll)
+MSVCR100.dll	A: 0x589D0000 - 0x58A8F000	(C:\WINDOWS\SYSTEM32\MSVCR100.dll)
+ColAndreas.DLL	A: 0x58910000 - 0x589CD000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\plugins\ColAndreas.DLL)
+mysql.DLL	A: 0x588C0000 - 0x5890E000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\plugins\mysql.DLL)
+VCRUNTIME140.dll	A: 0x6C380000 - 0x6C394000	(C:\WINDOWS\SYSTEM32\VCRUNTIME140.dll)
+MSVCP140.dll	A: 0x6C3A0000 - 0x6C410000	(C:\WINDOWS\SYSTEM32\MSVCP140.dll)
+log-core.dll	A: 0x6C840000 - 0x6C85A000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\log-core.dll)
+libmariadb.dll	A: 0x587F0000 - 0x588BD000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\libmariadb.dll)
+CRYPT32.dll	A: 0x77200000 - 0x77399000	(C:\WINDOWS\System32\CRYPT32.dll)
+Secur32.dll	A: 0x727E0000 - 0x727EA000	(C:\WINDOWS\SYSTEM32\Secur32.dll)
+MSASN1.dll	A: 0x76090000 - 0x7609E000	(C:\WINDOWS\System32\MSASN1.dll)
+napinsp.dll	A: 0x75100000 - 0x75111000	(C:\WINDOWS\system32\napinsp.dll)
+pnrpnsp.dll	A: 0x750E0000 - 0x750F6000	(C:\WINDOWS\system32\pnrpnsp.dll)
+mswsock.dll	A: 0x72C00000 - 0x72C52000	(C:\WINDOWS\System32\mswsock.dll)
+DNSAPI.dll	A: 0x74500000 - 0x74590000	(C:\WINDOWS\SYSTEM32\DNSAPI.dll)
+NSI.dll	A: 0x77AE0000 - 0x77AE7000	(C:\WINDOWS\System32\NSI.dll)
+IPHLPAPI.DLL	A: 0x744C0000 - 0x744F3000	(C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL)
+winrnr.dll	A: 0x750D0000 - 0x750DB000	(C:\WINDOWS\System32\winrnr.dll)
+NLAapi.dll	A: 0x750B0000 - 0x750C6000	(C:\WINDOWS\system32\NLAapi.dll)
+wshbth.dll	A: 0x750A0000 - 0x750B0000	(C:\WINDOWS\system32\wshbth.dll)
+rasadhlp.dll	A: 0x731F0000 - 0x731F8000	(C:\Windows\System32\rasadhlp.dll)
+pawncmd.DLL	A: 0x619E0000 - 0x61A19000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\plugins\pawncmd.DLL)
+sscanf.DLL	A: 0x028F0000 - 0x028FE000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\plugins\sscanf.DLL)
+streamer.DLL	A: 0x58780000 - 0x587E7000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\plugins\streamer.DLL)
+pawnregex.DLL	A: 0x58740000 - 0x58777000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\plugins\pawnregex.DLL)
+TDE.DLL	A: 0x61C30000 - 0x61C4B000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\plugins\TDE.DLL)
+MSVCR100D.dll	A: 0x585C0000 - 0x58732000	(C:\Users\fryte\OneDrive\Documents\My Projects\FrySAMP\MSVCR100D.dll)
+bcrypt.dll	A: 0x75C20000 - 0x75C39000	(C:\WINDOWS\System32\bcrypt.dll)

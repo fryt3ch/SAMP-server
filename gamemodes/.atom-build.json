@@ -1,0 +1,16 @@
+{
+  "cmd": "C:\\Users\\fryte\\OneDrive\\Documents\\My Projects\\FrySAMP\\compiler\\pawncc.exe",
+  "args": [
+  "-i include",
+    "-\\;+",
+    "-\\(+",
+    "-Z",
+    "$FILE_ACTIVE"
+  ],
+  "sh": false,
+  "cwd": "{FILE_ACTIVE_PATH}",
+  "errorMatch": "^(?<file>.+)\\((?<line>[0-9]+)\\)",
+  "env": {
+    "FILE_ACTIVE": "{FILE_ACTIVE}"
+  }
+}
